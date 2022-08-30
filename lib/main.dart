@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets/02_column_row/column.dart';
-
+import 'package:flutter_widgets/02_column_row/row.dart';
 import '01_appbar/appbar.dart';
 
 void main() {
@@ -21,7 +21,8 @@ class MyApp extends StatelessWidget {
       ),
       home:
       // MyAppBar(),
-      MyColumn(),
+      // MyColumn(),
+      MyRow(),
     );
   }
 }

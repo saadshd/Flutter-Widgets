@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/02_column_row/column.dart';
 
 import '01_appbar/appbar.dart';
 
@@ -13,12 +14,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Flutter Widgets',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
         useMaterial3: true,
       ),
-      home: MyAppBar(),
+      home:
+      // MyAppBar(),
+      MyColumn(),
     );
   }
 }

@@ -10,10 +10,38 @@ class MyContainer extends StatelessWidget {
         title: Text('Container'),
       ),
       body: Center(
-        child: Container(
-          height: 200,
-          width: 200,
-          color: Colors.indigo,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Container(
+              height: 200,
+              width: 200,
+              color: Colors.indigo,
+            ),
+            Container(
+              height: 200,
+              width: 200,
+              decoration: BoxDecoration(
+              color: Colors.indigo.shade100,
+              shape: BoxShape.circle,
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey.shade500,
+                  offset: Offset(10.0, 10.0),
+                  blurRadius: 25.0,
+                  spreadRadius: 2.0,
+                ),
+                BoxShadow(
+                  color: Colors.white,
+                  offset: Offset(-10.0, -10.0),
+                  blurRadius: 25.0,
+                  spreadRadius: 2.0,
+                )
+              ]
+              ),
+
+            ),
+          ],
         ),
       ),
     );

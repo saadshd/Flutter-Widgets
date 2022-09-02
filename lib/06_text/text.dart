@@ -9,13 +9,20 @@ class MyText extends StatelessWidget {
       appBar: AppBar(
         title: Text('Text'),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            Text('Muhammad Saad Shahid'),
-          ],
-        ),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        children: [
+          Text('Muhammad Saad Shahid'),
+          Text('Practicing and Exploring Flutter Widgets',
+          style: TextStyle(
+            fontSize: 25,
+            fontStyle: FontStyle.italic,
+            fontWeight: FontWeight.bold,
+            color: Colors.indigo,
+          ),
+          textAlign: TextAlign.center,
+          ),
+        ],
       ),
     );
   }

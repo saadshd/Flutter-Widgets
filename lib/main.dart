@@ -3,6 +3,7 @@ import 'package:flutter_widgets/02_column_row/column.dart';
 import 'package:flutter_widgets/02_column_row/row.dart';
 import 'package:flutter_widgets/03_container/container.dart';
 import 'package:flutter_widgets/05_icon/icon.dart';
+import 'package:flutter_widgets/06_text/text.dart';
 import '01_appbar/appbar.dart';
 import '04_image/image.dart';
 
@@ -28,7 +29,8 @@ class MyApp extends StatelessWidget {
       // MyRow(),
       // MyContainer(),
       // MyImage(),
-      MyIcon()
+      // MyIcon(),
+      MyText(),
     );
   }
 }

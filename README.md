@@ -1,6 +1,6 @@
-# flutter_widgets
+# Flutter Widgets
 
-A new Flutter project.
+Introduction to flutter widgets: In this repo we will learn some common widgets that are available in flutter SDK, Exploring and learning them for better code and implementation.
 
 ## Getting Started
 

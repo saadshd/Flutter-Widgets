@@ -5,6 +5,7 @@ import 'package:flutter_widgets/03_container/container.dart';
 import 'package:flutter_widgets/05_icon/icon.dart';
 import 'package:flutter_widgets/06_text/text.dart';
 import 'package:flutter_widgets/07_rich_text/rich_text.dart';
+import 'package:flutter_widgets/08_placeholder/placeholder.dart';
 import '01_appbar/appbar.dart';
 import '04_image/image.dart';
 
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
       // MyImage(),
       // MyIcon(),
       // MyText(),
-      MyRichText()
+      // MyRichText(),
+      MyPLaceholder()
 
     );
   }

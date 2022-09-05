@@ -9,6 +9,7 @@ import 'package:flutter_widgets/08_placeholder/placeholder.dart';
 import 'package:flutter_widgets/09_expanded/expanded.dart';
 import 'package:flutter_widgets/10_fittedbox/fittedbox.dart';
 import 'package:flutter_widgets/11_spacer/spacer.dart';
+import 'package:flutter_widgets/12_flexible/flexible.dart';
 import '01_appbar/appbar.dart';
 import '04_image/image.dart';
 
@@ -40,7 +41,8 @@ class MyApp extends StatelessWidget {
       // MyPLaceholder(),
       // MyExpanded(),
       // MyFittedBox()
-      MySpacer()
+      // MySpacer()
+      MyFlexible()
     );
   }
 }

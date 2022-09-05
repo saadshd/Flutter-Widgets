@@ -12,6 +12,7 @@ import 'package:flutter_widgets/11_spacer/spacer.dart';
 import 'package:flutter_widgets/12_flexible/flexible.dart';
 import '01_appbar/appbar.dart';
 import '04_image/image.dart';
+import '13_stack/stack.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,7 +43,8 @@ class MyApp extends StatelessWidget {
       // MyExpanded(),
       // MyFittedBox()
       // MySpacer()
-      MyFlexible()
+      // MyFlexible()
+      MyStack()
     );
   }
 }

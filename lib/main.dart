@@ -10,6 +10,7 @@ import 'package:flutter_widgets/09_expanded/expanded.dart';
 import 'package:flutter_widgets/10_fittedbox/fittedbox.dart';
 import 'package:flutter_widgets/11_spacer/spacer.dart';
 import 'package:flutter_widgets/12_flexible/flexible.dart';
+import 'package:flutter_widgets/14_circle_avatar/circle_avatar.dart';
 import '01_appbar/appbar.dart';
 import '04_image/image.dart';
 import '13_stack/stack.dart';
@@ -44,7 +45,8 @@ class MyApp extends StatelessWidget {
       // MyFittedBox()
       // MySpacer()
       // MyFlexible()
-      MyStack()
+      // MyStack(),
+      MyCircleAvatar()
     );
   }
 }

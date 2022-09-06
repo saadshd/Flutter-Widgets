@@ -11,10 +11,17 @@ class MyCircleAvatar extends StatelessWidget {
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: const [
             CircleAvatar(
-              radius: 50,
+              radius: 100,
               backgroundColor: Colors.indigo,
+            ),
+            CircleAvatar(
+              radius: 100,
+              backgroundColor: Colors.indigo,
+              backgroundImage: NetworkImage('https://images.unsplash.com/photo-1661993749894-7771a581f7de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'),
+
             ),
           ],
         ),

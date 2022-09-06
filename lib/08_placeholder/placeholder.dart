@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class MyPLaceholder extends StatelessWidget {
-  const MyPLaceholder({Key? key}) : super(key: key);
+class MyPlaceholder extends StatelessWidget {
+  const MyPlaceholder({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Placeholder'),
+        title: const Text('Placeholder'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
@@ -17,7 +17,7 @@ class MyPLaceholder extends StatelessWidget {
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
+              children: const [
                 Placeholder(
                   color: Colors.indigo,
                   fallbackWidth: 200,
@@ -30,22 +30,25 @@ class MyPLaceholder extends StatelessWidget {
                 )
               ],
             ),
-            Placeholder(
+            const Placeholder(
               color: Colors.red,
               fallbackHeight: 150,
+              strokeWidth: 5.0,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
+              children: const [
                 Placeholder(
                   color: Colors.indigo,
                   fallbackWidth: 200,
                   fallbackHeight: 250,
+                  strokeWidth: 3.0,
                 ),
                 Placeholder(
                   color: Colors.indigo,
                   fallbackWidth: 200,
                   fallbackHeight: 250,
+                  strokeWidth: 3.0,
                 )
               ],
             ),

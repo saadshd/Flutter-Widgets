@@ -12,6 +12,7 @@ import 'package:flutter_widgets/11_spacer/spacer.dart';
 import 'package:flutter_widgets/12_flexible/flexible.dart';
 import 'package:flutter_widgets/14_circle_avatar/circle_avatar.dart';
 import 'package:flutter_widgets/15_sizedbox/sizedbox.dart';
+import 'package:flutter_widgets/16_divider/divider.dart';
 import '01_appbar/appbar.dart';
 import '04_image/image.dart';
 import '13_stack/stack.dart';
@@ -41,14 +42,15 @@ class MyApp extends StatelessWidget {
       // MyIcon(),
       // MyText(),
       // MyRichText(),
-      // MyPLaceholder(),
+      // MyPlaceholder(),
       // MyExpanded(),
       // MyFittedBox()
       // MySpacer()
       // MyFlexible()
       // MyStack(),
       // MyCircleAvatar()
-      MySizedBox()
+      // MySizedBox()
+      MyDivider()
     );
   }
 }

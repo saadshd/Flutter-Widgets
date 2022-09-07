@@ -13,6 +13,7 @@ import 'package:flutter_widgets/12_flexible/flexible.dart';
 import 'package:flutter_widgets/14_circle_avatar/circle_avatar.dart';
 import 'package:flutter_widgets/15_sizedbox/sizedbox.dart';
 import 'package:flutter_widgets/16_divider/divider.dart';
+import 'package:flutter_widgets/17_gesturedetector/gesturedetector.dart';
 import '01_appbar/appbar.dart';
 import '04_image/image.dart';
 import '13_stack/stack.dart';
@@ -50,7 +51,8 @@ class MyApp extends StatelessWidget {
       // MyStack(),
       // MyCircleAvatar()
       // MySizedBox()
-      MyDivider()
+      // MyDivider()
+      MyGestureDetector()
     );
   }
 }

@@ -32,15 +32,15 @@ class MyContainer extends StatelessWidget {
               decoration: BoxDecoration(
               color: Colors.indigo.shade100,
               shape: BoxShape.circle,
-              boxShadow: [
+              boxShadow: const [
                 BoxShadow(
-                  color: Colors.grey.shade500,
-                  offset: const Offset(10.0, 10.0),
+                  color: Colors.black26,
+                  offset: Offset(10.0, 10.0),
                   blurRadius: 25.0,
                   spreadRadius: 2.0,
                 ),
-                const BoxShadow(
-                  color: Colors.white,
+                BoxShadow(
+                  color: Colors.black12,
                   offset: Offset(-10.0, -10.0),
                   blurRadius: 25.0,
                   spreadRadius: 2.0,

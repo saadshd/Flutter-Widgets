@@ -7,12 +7,11 @@ class MyImage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Image'),
+        title: const Text('Image'),
       ),
       body: Center(
         child: Column(
-          children: [
-
+          children: const [
             Text('\n\nAsset Image'),
             Image(image: AssetImage('images/logo.png')),
             Text('\n\n\nNetwork Image'),

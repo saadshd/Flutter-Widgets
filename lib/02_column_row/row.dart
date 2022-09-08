@@ -7,7 +7,7 @@ class MyRow extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Row'),
+        title: const Text('Row'),
       ),
       body: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -28,7 +28,7 @@ class MyRow extends StatelessWidget {
           Container(
             height: 200,
             width: 100,
-            color: Colors.indigo.shade100,
+            color: Colors.indigo.shade900,
           )
         ],
       )

@@ -34,9 +34,19 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.indigo,
         useMaterial3: true,
+        scaffoldBackgroundColor: Colors.indigo.shade100,
+          appBarTheme: const AppBarTheme(
+              backgroundColor: Colors.indigo,
+              iconTheme: IconThemeData(color: Colors.white),
+              actionsIconTheme: IconThemeData(color: Colors.white),
+              titleTextStyle: TextStyle(
+                  fontSize: 20,
+                  color: Colors.white
+              )
+          )
       ),
       home:
-      // MyAppBar(),
+      const MyAppBar(),
       // MyColumn(),
       // MyRow(),
       // MyContainer(),
@@ -54,7 +64,7 @@ class MyApp extends StatelessWidget {
       // MySizedBox()
       // MyDivider()
       // MyGestureDetector()
-      MyInkWell()
+      // MyInkWell()
     );
   }
 }

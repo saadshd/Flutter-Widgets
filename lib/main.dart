@@ -46,14 +46,14 @@ class MyApp extends StatelessWidget {
           )
       ),
       home:
-      const MyAppBar(),
-      // MyColumn(),
-      // MyRow(),
-      // MyContainer(),
-      // MyImage(),
-      // MyIcon(),
-      // MyText(),
-      // MyRichText(),
+      // const MyAppBar()
+      // const MyColumn()
+      // const MyRow()
+      // const MyContainer()
+      // const MyImage()
+      // const MyIcon()
+      // const MyText()
+      const MyRichText()
       // MyPlaceholder(),
       // MyExpanded(),
       // MyFittedBox()

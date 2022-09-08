@@ -12,20 +12,28 @@ class _MyAppBarState extends State<MyAppBar> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('AppBar'),
-        automaticallyImplyLeading: false,
+        title: const Text('AppBar'),
         actions: [
           IconButton(
             onPressed: () {},
-            icon: Icon(Icons.search),
+            icon: const Icon(
+              Icons.search,
+              color: Colors.white,
+            ),
           ),
           IconButton(
             onPressed: () {},
-            icon: Icon(Icons.notifications_outlined),
+            icon: const Icon(
+                Icons.notifications_outlined,
+                color: Colors.white,
+            ),
           ),
           IconButton(
             onPressed: () {},
-            icon: Icon(Icons.logout),
+            icon: const Icon(
+                Icons.logout,
+                color: Colors.white,
+            ),
           ),
         ],
       ),

@@ -7,7 +7,7 @@ class MyIcon extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Icon'),
+        title: const Text('Icon'),
       ),
       body: Center(
         child: Column(

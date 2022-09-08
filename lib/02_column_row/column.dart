@@ -7,7 +7,7 @@ class MyColumn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Column'),
+        title: const Text('Column'),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -15,20 +15,20 @@ class MyColumn extends StatelessWidget {
         children: [
           Container(
             height: 100,
-            width: 600,
+            width: 300,
             color: Colors.indigo,
           ),
 
           Container(
             height: 100,
-            width: 400,
+            width: 200,
             color: Colors.indigo.shade300,
           ),
 
           Container(
             height: 100,
-            width: 200,
-            color: Colors.indigo.shade100,
+            width: 100,
+            color: Colors.indigo.shade900,
           )
         ],
       )

@@ -7,7 +7,7 @@ class MyRichText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Rich Text'),
+        title: const Text('Rich Text'),
       ),
       body: Center(
         child: Column(
@@ -15,14 +15,14 @@ class MyRichText extends StatelessWidget {
           children: [
             Container(
               color: Colors.indigo.shade100,
-                child: Text('Muhammad Saad Shahid')
+                child: const Text('Muhammad Saad Shahid')
             ),
-            SizedBox(height: 50,),
+            const SizedBox(height: 50,),
             RichText(text: TextSpan(
               style: TextStyle(
                 color: Colors.indigo.shade900,
               ),
-            children: [
+            children: const [
                 TextSpan(
                   text: 'Note: ',
                   style: TextStyle(
@@ -32,7 +32,7 @@ class MyRichText extends StatelessWidget {
                 TextSpan(
                 text: 'Above written text is my name.',
                 style: TextStyle(
-                  color: Colors.indigo.shade300
+                  color: Colors.indigo
                 )
             )
                 ]

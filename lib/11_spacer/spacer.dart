@@ -11,17 +11,17 @@ class MySpacer extends StatelessWidget {
         children: [
           Container(
               height: 100,
-              color: Colors.indigo
+              color: Colors.indigo.shade300
           ),
           const Spacer(flex: 2),
           Container(
               height: 100,
-              color: Colors.indigo.shade300
+              color: Colors.indigo.shade700
           ),
           const Spacer(flex: 1),
           Container(
               height: 100,
-              color: Colors.indigo.shade100
+              color: Colors.indigo.shade900
           ),
         ],
       ),

@@ -28,7 +28,7 @@ class MySizedBox extends StatelessWidget {
               Container(
                   height: 100,
                   width: 100,
-                  color: Colors.indigo.shade300
+                  color: Colors.indigo
               ),
             ],
           ),
@@ -37,14 +37,14 @@ class MySizedBox extends StatelessWidget {
           ),
           Container(
               height: 100,
-              color: Colors.indigo.shade100
+              color: Colors.indigo
           ),
           const SizedBox(
             height: 25,
           ),
           Container(
               height: 100,
-              color: Colors.indigo.shade900
+              color: Colors.indigo
           ),
         ],
       ),

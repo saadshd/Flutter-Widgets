@@ -17,7 +17,7 @@ class MyFlexible extends StatelessWidget {
               fit: FlexFit.tight,
               child: Container(
                 height: 100,
-                color: Colors.indigo,
+                color: Colors.indigo.shade300,
               ),
             ),
             Flexible(
@@ -25,7 +25,7 @@ class MyFlexible extends StatelessWidget {
               fit: FlexFit.tight,
               child: Container(
                 height: 50,
-                color: Colors.indigo.shade300,
+                color: Colors.indigo.shade700,
               ),
             ),
             Flexible(
@@ -33,7 +33,7 @@ class MyFlexible extends StatelessWidget {
               fit: FlexFit.tight,
               child: Container(
                 height: 100,
-                color: Colors.indigo.shade100,
+                color: Colors.indigo.shade900,
               ),
             ),
           ],

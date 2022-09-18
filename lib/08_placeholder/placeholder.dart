@@ -20,12 +20,12 @@ class MyPlaceholder extends StatelessWidget {
               children: const [
                 Placeholder(
                   color: Colors.indigo,
-                  fallbackWidth: 200,
+                  fallbackWidth: 150,
                   fallbackHeight: 150,
                 ),
                 Placeholder(
                   color: Colors.indigo,
-                  fallbackWidth: 200,
+                  fallbackWidth: 150,
                   fallbackHeight: 150,
                 )
               ],
@@ -40,13 +40,13 @@ class MyPlaceholder extends StatelessWidget {
               children: const [
                 Placeholder(
                   color: Colors.indigo,
-                  fallbackWidth: 200,
+                  fallbackWidth: 150,
                   fallbackHeight: 250,
                   strokeWidth: 3.0,
                 ),
                 Placeholder(
                   color: Colors.indigo,
-                  fallbackWidth: 200,
+                  fallbackWidth: 150,
                   fallbackHeight: 250,
                   strokeWidth: 3.0,
                 )

@@ -53,18 +53,18 @@ class MyApp extends StatelessWidget {
       // const MyImage()
       // const MyIcon()
       // const MyText()
-      const MyRichText()
-      // MyPlaceholder(),
-      // MyExpanded(),
-      // MyFittedBox()
-      // MySpacer()
-      // MyFlexible()
-      // MyStack(),
-      // MyCircleAvatar()
-      // MySizedBox()
-      // MyDivider()
-      // MyGestureDetector()
-      // MyInkWell()
+      // const MyRichText()
+      // const MyPlaceholder()
+      // const MyExpanded()
+      // const MyFittedBox()
+      // const MySpacer()
+      // const MyFlexible()
+      // const MyStack()
+      // const MyCircleAvatar()
+      // const MySizedBox()
+      // const MyDivider()
+      // const MyGestureDetector()
+      const MyInkWell()
     );
   }
 }

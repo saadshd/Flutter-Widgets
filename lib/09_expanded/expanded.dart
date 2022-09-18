@@ -14,13 +14,13 @@ class MyExpanded extends StatelessWidget {
           Expanded(
             flex: 3,
             child: Container(
-              color: Colors.indigo,
+              color: Colors.indigo.shade100,
             ),
           ),
           Expanded(
             flex: 1,
             child: Container(
-              color: Colors.indigo.shade100,
+              color: Colors.indigo,
             ),
           ),
           Expanded(

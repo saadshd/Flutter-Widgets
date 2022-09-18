@@ -7,16 +7,17 @@ class MyFittedBox extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('FittedBox'),
+        title: const Text('FittedBox'),
       ),
       body: Center(
         child: Container(
           height: 200,
           width: 200,
-          color: Colors.indigo.shade100,
-          child: FittedBox(
+          color: Colors.indigo,
+          child: const FittedBox(
             child: Text('Flutter FittedBox',
             style: TextStyle(
+              color: Colors.white,
               fontSize: 70,
             ),
             ),

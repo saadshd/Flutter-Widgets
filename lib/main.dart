@@ -16,6 +16,7 @@ import 'package:flutter_widgets/16_divider/divider.dart';
 import 'package:flutter_widgets/17_gesturedetector/gesturedetector.dart';
 import 'package:flutter_widgets/18_inkwell/inkwell.dart';
 import 'package:flutter_widgets/19_singlechildscrollview/singlechildscrollview.dart';
+import 'package:flutter_widgets/20_listview/listview.dart';
 import '01_appbar/appbar.dart';
 import '04_image/image.dart';
 import '13_stack/stack.dart';
@@ -66,7 +67,8 @@ class MyApp extends StatelessWidget {
       // const MyDivider()
       // const MyGestureDetector()
       // const MyInkWell()
-      const MySingleChildScrollView()
+      // const MySingleChildScrollView()
+      const MyListView()
     );
   }
 }

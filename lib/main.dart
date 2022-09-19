@@ -17,6 +17,7 @@ import 'package:flutter_widgets/17_gesturedetector/gesturedetector.dart';
 import 'package:flutter_widgets/18_inkwell/inkwell.dart';
 import 'package:flutter_widgets/19_singlechildscrollview/singlechildscrollview.dart';
 import 'package:flutter_widgets/20_listview/listview.dart';
+import 'package:flutter_widgets/21_listview_builder/listview_builder.dart';
 import '01_appbar/appbar.dart';
 import '04_image/image.dart';
 import '13_stack/stack.dart';
@@ -68,7 +69,8 @@ class MyApp extends StatelessWidget {
       // const MyGestureDetector()
       // const MyInkWell()
       // const MySingleChildScrollView()
-      const MyListView()
+      // const MyListView()
+      const MyListViewBuilder()
     );
   }
 }

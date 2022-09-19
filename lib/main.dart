@@ -19,6 +19,7 @@ import 'package:flutter_widgets/19_singlechildscrollview/singlechildscrollview.d
 import 'package:flutter_widgets/20_listview/listview.dart';
 import 'package:flutter_widgets/21_listview_builder/listview_builder.dart';
 import 'package:flutter_widgets/22_gridview/gridview.dart';
+import 'package:flutter_widgets/23_gridview_builder/gridview_builder.dart';
 import '01_appbar/appbar.dart';
 import '04_image/image.dart';
 import '13_stack/stack.dart';
@@ -72,7 +73,8 @@ class MyApp extends StatelessWidget {
       // const MySingleChildScrollView()
       // const MyListView()
       // const MyListViewBuilder()
-      const MyGridView()
+      // const MyGridView()
+      const MyGridViewBuilder()
     );
   }
 }

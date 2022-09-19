@@ -8,7 +8,7 @@ class MyCircle extends StatelessWidget {
     return const Padding(
       padding: EdgeInsets.all(10.0),
       child: CircleAvatar(
-        radius: 25,
+        radius: 35,
       )
     );
   }

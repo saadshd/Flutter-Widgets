@@ -8,9 +8,8 @@ class MyImage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Image'),
-        leading: const Icon(
-          Icons.arrow_back_ios_new,
-          color: Colors.white,
+        leading: const BackButton(
+            color: Colors.white
         ),
       ),
       body: Center(

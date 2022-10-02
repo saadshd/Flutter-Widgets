@@ -13,9 +13,8 @@ class _MyAppBarState extends State<MyAppBar> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('AppBar'),
-        leading: const Icon(
-          Icons.arrow_back_ios_new,
-          color: Colors.white,
+        leading: const BackButton(
+          color: Colors.white
         ),
         actions: [
           IconButton(

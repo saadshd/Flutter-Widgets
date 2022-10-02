@@ -14,9 +14,8 @@ class _MyGridViewState extends State<MyGridView> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('GridView'),
-        leading: const Icon(
-          Icons.arrow_back_ios_new,
-          color: Colors.white,
+        leading: const BackButton(
+            color: Colors.white
         ),
       ),
       body: GridView.count(

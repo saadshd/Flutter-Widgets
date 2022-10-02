@@ -8,6 +8,10 @@ class MyStack extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Stack"),
+        leading: const Icon(
+          Icons.arrow_back_ios_new,
+          color: Colors.white,
+        ),
       ),
       body: Center(
         child: Stack(

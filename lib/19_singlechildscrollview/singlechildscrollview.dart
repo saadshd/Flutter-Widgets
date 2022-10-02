@@ -14,6 +14,10 @@ class _MySingleChildScrollViewState extends State<MySingleChildScrollView> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('SingleChildScrollView'),
+        leading: const Icon(
+          Icons.arrow_back_ios_new,
+          color: Colors.white,
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(

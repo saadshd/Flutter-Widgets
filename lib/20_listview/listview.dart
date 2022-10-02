@@ -15,6 +15,10 @@ class _MyListViewState extends State<MyListView> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('ListView'),
+        leading: const Icon(
+          Icons.arrow_back_ios_new,
+          color: Colors.white,
+        ),
       ),
       body: Column(
         children: [

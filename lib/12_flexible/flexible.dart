@@ -7,7 +7,11 @@ class MyFlexible extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: const Text('Flexible')
+        title: const Text('Flexible'),
+        leading: const Icon(
+          Icons.arrow_back_ios_new,
+          color: Colors.white,
+        ),
       ),
       body: Center(
         child: Column(

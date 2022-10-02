@@ -8,6 +8,10 @@ class MyDivider extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Divider'),
+        leading: const Icon(
+          Icons.arrow_back_ios_new,
+          color: Colors.white,
+        ),
       ),
       body: Center(
         child: Column(

@@ -15,6 +15,10 @@ class _MyGestureDetectorState extends State<MyGestureDetector> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Gesture Detector'),
+        leading: const Icon(
+          Icons.arrow_back_ios_new,
+          color: Colors.white,
+        ),
       ),
       body: Center(
         child: GestureDetector(

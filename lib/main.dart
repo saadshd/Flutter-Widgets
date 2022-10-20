@@ -20,6 +20,7 @@ import 'package:flutter_widgets/20_listview/listview.dart';
 import 'package:flutter_widgets/21_listview_builder/listview_builder.dart';
 import 'package:flutter_widgets/22_gridview/gridview.dart';
 import 'package:flutter_widgets/23_gridview_builder/gridview_builder.dart';
+import 'package:flutter_widgets/25_sliverappbar/sliverappbar.dart';
 import 'package:flutter_widgets/homescreen.dart';
 import '01_appbar/appbar.dart';
 import '04_image/image.dart';
@@ -78,6 +79,7 @@ class MyApp extends StatelessWidget {
         '/21': (context) => const MyListViewBuilder(),
         '/22': (context) => const MyGridView(),
         '/23': (context) => const MyGridViewBuilder(),
+        '/25': (context) => const MySliverAppBar(),
       },
     );
   }

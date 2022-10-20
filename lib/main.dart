@@ -21,6 +21,8 @@ import 'package:flutter_widgets/21_listview_builder/listview_builder.dart';
 import 'package:flutter_widgets/22_gridview/gridview.dart';
 import 'package:flutter_widgets/23_gridview_builder/gridview_builder.dart';
 import 'package:flutter_widgets/25_sliverappbar/sliverappbar.dart';
+import 'package:flutter_widgets/26_largeappbar/largeappbar.dart';
+import 'package:flutter_widgets/27_mediumappbar/mediumappbar.dart';
 import 'package:flutter_widgets/homescreen.dart';
 import '01_appbar/appbar.dart';
 import '04_image/image.dart';
@@ -63,9 +65,9 @@ class MyApp extends StatelessWidget {
         '/05': (context) => const MyIcon(),
         '/06': (context) => const MyText(),
         '/07': (context) => const MyRichText(),
-        '/08': (context) => const MyPlaceholder(),
         '/09': (context) => const MyExpanded(),
         '/10': (context) => const MyFittedBox(),
+        '/08': (context) => const MyPlaceholder(),
         '/11': (context) => const MySpacer(),
         '/12': (context) => const MyFlexible(),
         '/13': (context) => const MyStack(),
@@ -80,6 +82,8 @@ class MyApp extends StatelessWidget {
         '/22': (context) => const MyGridView(),
         '/23': (context) => const MyGridViewBuilder(),
         '/25': (context) => const MySliverAppBar(),
+        '/26': (context) => const MyLargeAppBar(),
+        '/27': (context) => const MyMediumAppBar(),
       },
     );
   }

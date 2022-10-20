@@ -57,6 +57,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   MyListTile(title: 'GridView', onTap: () {Navigator.pushNamed(context, '/22');}),
                   MyListTile(title: 'GridView Builder', onTap: () {Navigator.pushNamed(context, '/23');}),
                   MyListTile(title: 'SliverAppBar', onTap: () {Navigator.pushNamed(context, '/25');}),
+                  MyListTile(title: 'LargeAppBar', onTap: () {Navigator.pushNamed(context, '/26');}),
+                  MyListTile(title: 'MediumAppBar', onTap: () {Navigator.pushNamed(context, '/27');}),
                 ],
               ),
             ),

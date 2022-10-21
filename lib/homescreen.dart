@@ -60,6 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   MyListTile(title: 'LargeAppBar', onTap: () {Navigator.pushNamed(context, '/26');}),
                   MyListTile(title: 'MediumAppBar', onTap: () {Navigator.pushNamed(context, '/27');}),
                   MyListTile(title: 'BottomNavigationBar', onTap: () {Navigator.pushNamed(context, '/28');}),
+                  MyListTile(title: 'TabBar', onTap: () {Navigator.pushNamed(context, '/29');}),
                 ],
               ),
             ),

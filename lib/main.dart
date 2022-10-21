@@ -24,6 +24,7 @@ import 'package:flutter_widgets/25_sliverappbar/sliverappbar.dart';
 import 'package:flutter_widgets/26_largeappbar/largeappbar.dart';
 import 'package:flutter_widgets/27_mediumappbar/mediumappbar.dart';
 import 'package:flutter_widgets/28_bottomnavbar/bottomnavbar.dart';
+import 'package:flutter_widgets/29_tabbar/tabbar.dart';
 import 'package:flutter_widgets/homescreen.dart';
 import '01_appbar/appbar.dart';
 import '04_image/image.dart';
@@ -86,6 +87,7 @@ class MyApp extends StatelessWidget {
         '/26': (context) => const MyLargeAppBar(),
         '/27': (context) => const MyMediumAppBar(),
         '/28': (context) => const MyBottomNavBar(),
+        '/29': (context) => const MyTabBar(),
       },
     );
   }

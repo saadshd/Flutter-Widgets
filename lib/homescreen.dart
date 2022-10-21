@@ -22,13 +22,13 @@ class _HomeScreenState extends State<HomeScreen> {
         padding: const EdgeInsets.all(10),
         child: Column(
           children: [
-            TextField(
-              controller: controller,
-              decoration: const InputDecoration(
-                hintText: 'Search Widget',
-                prefixIcon: Icon(Icons.search),
-              ),
-            ),
+            // TextField(
+            //   controller: controller,
+            //   decoration: const InputDecoration(
+            //     hintText: 'Search Widget',
+            //     prefixIcon: Icon(Icons.search),
+            //   ),
+            // ),
             Expanded(
               child: ListView(
                 children: [
@@ -59,6 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   MyListTile(title: 'SliverAppBar', onTap: () {Navigator.pushNamed(context, '/25');}),
                   MyListTile(title: 'LargeAppBar', onTap: () {Navigator.pushNamed(context, '/26');}),
                   MyListTile(title: 'MediumAppBar', onTap: () {Navigator.pushNamed(context, '/27');}),
+                  MyListTile(title: 'BottomNavigationBar', onTap: () {Navigator.pushNamed(context, '/28');}),
                 ],
               ),
             ),

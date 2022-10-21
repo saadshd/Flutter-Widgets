@@ -23,6 +23,7 @@ import 'package:flutter_widgets/23_gridview_builder/gridview_builder.dart';
 import 'package:flutter_widgets/25_sliverappbar/sliverappbar.dart';
 import 'package:flutter_widgets/26_largeappbar/largeappbar.dart';
 import 'package:flutter_widgets/27_mediumappbar/mediumappbar.dart';
+import 'package:flutter_widgets/28_bottomnavbar/bottomnavbar.dart';
 import 'package:flutter_widgets/homescreen.dart';
 import '01_appbar/appbar.dart';
 import '04_image/image.dart';
@@ -84,6 +85,7 @@ class MyApp extends StatelessWidget {
         '/25': (context) => const MySliverAppBar(),
         '/26': (context) => const MyLargeAppBar(),
         '/27': (context) => const MyMediumAppBar(),
+        '/28': (context) => const MyBottomNavBar(),
       },
     );
   }

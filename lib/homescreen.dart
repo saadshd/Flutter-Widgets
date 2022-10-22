@@ -61,6 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   MyListTile(title: 'MediumAppBar', onTap: () {Navigator.pushNamed(context, '/27');}),
                   MyListTile(title: 'BottomNavigationBar', onTap: () {Navigator.pushNamed(context, '/28');}),
                   MyListTile(title: 'TabBar', onTap: () {Navigator.pushNamed(context, '/29');}),
+                  MyListTile(title: 'Card', onTap: () {Navigator.pushNamed(context, '/30');}),
                 ],
               ),
             ),
